@@ -248,7 +248,7 @@
 
     End Sub
     Sub Newss()
-
+        MessageBox.Show("")
     End Sub
 End Class
 
