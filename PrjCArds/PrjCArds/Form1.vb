@@ -247,6 +247,9 @@
         TxtSecretACHID.Focus()
 
     End Sub
+    Sub Newss()
+
+    End Sub
 End Class
 
 
