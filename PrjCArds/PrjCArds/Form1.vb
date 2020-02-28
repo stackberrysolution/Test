@@ -248,7 +248,7 @@
 
     End Sub
     Sub Newss()
-            MessageBox.Show("hello ahmad")
+        MessageBox.Show("hello ahmad00")
     End Sub
 End Class
 
