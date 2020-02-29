@@ -7,9 +7,9 @@
         ''txtCardID.Text = "%B1234690022029738^SHALASH/MOHAMMAD S        ^2304201000000000000000430000000?;4275690022029738=23042010000043000000?"
         ''Dim CardID As String = txtCardID.Text
         ''Dim len As Integer = CardID.Split("^").Length
+        MessageBox.Show("Hello World")
 
         Dim xx1 As Cards = New Cards(txtCardID.Text, TxtSecretID.Text, TxtMode.Text)
-
         xx1.setCustomerInformation(txtFirstName.Text, txtLastName.Text, txtAddress1.Text, txtAdress2.Text, txtCity.Text, TxtState.Text, TxtZipCode.Text, TxtCountry.Text, TxtPhone.Text, TxtEmail.Text, TxtCompNm.Text)
         xx1.swipe(txtCardID.Text)
         xx1.setCCInformation(TxtPaymentAccount.Text, TxtCardExpier.Text, TxtVV2.Text)
